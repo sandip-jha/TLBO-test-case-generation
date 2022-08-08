@@ -55,7 +55,8 @@ def main():
 	print_guide()
 
 	
-	x=5
+	print("Give the number of inputs you want to generate")
+	x=int(input())
 	print("\n***number of inputs generated are : "+str(x))
 
 	t_path=input("Enter the Target Path : A, B, C, D, E or F : ")
